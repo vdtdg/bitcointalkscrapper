@@ -15,6 +15,9 @@ The JSON file have this structure :
 The file name follow this pattern : start-stop.json  
 Where start is the id of the first user in the file and stop the last.
 
+The script can be launched at different times i.e. you can scrap users 1 to 1000 in the morning and then scrap 1000 to 2000 in the evening. The script will ask you where to begin and to stop at launch.
+Be sure you always start with the id you've ended on last time.  
+
 ## Getting started
 
 ### Prerequisites
@@ -33,7 +36,9 @@ Just clone this repository.
 
 ### How to use
 Launch it by command line **directly in the folder src**  
-`` python3 scrapper.py``
+`` python3 scrapper.py``  
+Don't
+`` python3 src/scrapper.py``  
 
 The script will ask you from where to start and when to stop.  
 With the script is supplied the first 760150 users, so you can start with this value.  
