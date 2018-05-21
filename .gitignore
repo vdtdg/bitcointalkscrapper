@@ -1,0 +1,10 @@
+venv/
+backupdata/
+src/testsoup.py
+src/testvm.py
+src/testrandom.py
+src/testprocess.py
+src/testscrap.py
+src/testjson.py
+src/multithreadpuller.py
+src/conversion.py
