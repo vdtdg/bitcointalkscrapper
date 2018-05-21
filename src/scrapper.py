@@ -1,5 +1,3 @@
-# By Valérian de THEZAN de GAUSSAN
-# UCBL - Lyon 1
 import json
 import os
 import re
